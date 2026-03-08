@@ -1,0 +1,303 @@
+>>> Starting simulation for tau = 1.000000
+
+
+-------------------
+Processing Case 1 for tau = 1.000000
+  -> FEM-quad-1
+--------------------------------------------------
+            LINEAR FEM SOLVER STARTING            
+--------------------------------------------------
+[PREPROCESS] Total number of elements: 266
+--------------------------------------------------
+[PREPROCESS] Applying distributed loads on edges...
+[PREPROCESS] Defining fixed degrees of freedom...
+[PREPROCESS] Number of fixed nodes: 20
+--------------------------------------------------
+[PREPROCESS] Total Neumann force in x: 0
+[PREPROCESS] Total Neumann force in y: 2000
+--------------------------------------------------
+[ANALYSIS] Assembling global stiffness matrix and building reduced system...
+--------------------------------------------------
+[ANALYSIS] Total area of elements: 15.36
+--------------------------------------------------
+[ANALYSIS] Reduced system size: 560 DOFs
+--------------------------------------------------
+----------------- SOLVING SYSTEM -----------------
+    "[ANALYSIS] System solved using "    "gauss"    " solver."
+
+--------------------------------------------------
+[POSTPROCESS] Computing reaction forces at fixed DOFs...
+[POSTPROCESS] Total reaction force in x: 9.4531e-11
+[POSTPROCESS] Total reaction force in y: -2000
+[POSTPROCESS] Maximum displacement in x: 0.15033
+[POSTPROCESS] Maximum displacement in y: 0.20191
+--------------------------------------------------
+[POSTPROCESS] Total elastic energy: -193.5595
+--------------------------------------------------
+            LINEAR FEM SOLVER FINISHED            
+--------------------------------------------------
+ 
+ 
+  -> VEM-quad-1 (tau = 1.000000)
+--------------------------------------------------
+          LINEAR VEM SOLVER STARTING              
+--------------------------------------------------
+[PREPROCESS] Total number of elements: 266
+--------------------------------------------------
+[PREPROCESS] Applying distributed Neumann loads on edges...
+[PREPROCESS] Defining prescribed degrees of freedom...
+[PREPROCESS] Number of fixed nodes: 20
+--------------------------------------------------
+[ANALYSIS] Assembling global stiffness matrix using VEM...
+--------------------------------------------------
+[ANALYSIS] Reduced system size: 560 DOFs
+--------------------------------------------------
+----------------- SOLVING SYSTEM -----------------
+    "[ANALYSIS] System solved using "    "gauss"    " solver."
+
+--------------------------------------------------
+[POSTPROCESS] Computing reaction forces at fixed DOFs...
+[POSTPROCESS] Total reaction force in x: -8.5789e-07
+[POSTPROCESS] Total reaction force in y: -2000
+[POSTPROCESS] Maximum displacement in x: 0.13079
+[POSTPROCESS] Maximum displacement in y: 0.18262
+[POSTPROCESS] Maximum overall displacement: 0.18262
+--------------------------------------------------
+[POSTPROCESS] Total elastic energy: -176.41
+--------------------------------------------------
+          LINEAR VEM SOLVER FINISHED              
+--------------------------------------------------
+ 
+ 
+  -> VEM-voro-1 (tau = 1.000000)
+--------------------------------------------------
+          LINEAR VEM SOLVER STARTING              
+--------------------------------------------------
+[PREPROCESS] Total number of elements: 253
+--------------------------------------------------
+[PREPROCESS] Applying distributed Neumann loads on edges...
+[PREPROCESS] Defining prescribed degrees of freedom...
+[PREPROCESS] Number of fixed nodes: 22
+--------------------------------------------------
+[ANALYSIS] Assembling global stiffness matrix using VEM...
+--------------------------------------------------
+[ANALYSIS] Reduced system size: 972 DOFs
+--------------------------------------------------
+----------------- SOLVING SYSTEM -----------------
+    "[ANALYSIS] System solved using "    "gauss"    " solver."
+
+--------------------------------------------------
+[POSTPROCESS] Computing reaction forces at fixed DOFs...
+[POSTPROCESS] Total reaction force in x: -0.0030546
+[POSTPROCESS] Total reaction force in y: -1999.9972
+[POSTPROCESS] Maximum displacement in x: 0.14397
+[POSTPROCESS] Maximum displacement in y: 0.19589
+[POSTPROCESS] Maximum overall displacement: 0.19589
+--------------------------------------------------
+[POSTPROCESS] Total elastic energy: -188.7388
+--------------------------------------------------
+          LINEAR VEM SOLVER FINISHED              
+--------------------------------------------------
+ 
+ 
+
+-------------------
+Processing Case 2 for tau = 1.000000
+  -> FEM-quad-2
+--------------------------------------------------
+            LINEAR FEM SOLVER STARTING            
+--------------------------------------------------
+[PREPROCESS] Total number of elements: 1131
+--------------------------------------------------
+[PREPROCESS] Applying distributed loads on edges...
+[PREPROCESS] Defining fixed degrees of freedom...
+[PREPROCESS] Number of fixed nodes: 40
+--------------------------------------------------
+[PREPROCESS] Total Neumann force in x: 0
+[PREPROCESS] Total Neumann force in y: 2000
+--------------------------------------------------
+[ANALYSIS] Assembling global stiffness matrix and building reduced system...
+--------------------------------------------------
+[ANALYSIS] Total area of elements: 15.36
+--------------------------------------------------
+[ANALYSIS] Reduced system size: 2320 DOFs
+--------------------------------------------------
+----------------- SOLVING SYSTEM -----------------
+    "[ANALYSIS] System solved using "    "gauss"    " solver."
+
+--------------------------------------------------
+[POSTPROCESS] Computing reaction forces at fixed DOFs...
+[POSTPROCESS] Total reaction force in x: -9.436e-12
+[POSTPROCESS] Total reaction force in y: -2000
+[POSTPROCESS] Maximum displacement in x: 0.155
+[POSTPROCESS] Maximum displacement in y: 0.20651
+--------------------------------------------------
+[POSTPROCESS] Total elastic energy: -196.7527
+--------------------------------------------------
+            LINEAR FEM SOLVER FINISHED            
+--------------------------------------------------
+ 
+ 
+  -> VEM-quad-2 (tau = 1.000000)
+--------------------------------------------------
+          LINEAR VEM SOLVER STARTING              
+--------------------------------------------------
+[PREPROCESS] Total number of elements: 1131
+--------------------------------------------------
+[PREPROCESS] Applying distributed Neumann loads on edges...
+[PREPROCESS] Defining prescribed degrees of freedom...
+[PREPROCESS] Number of fixed nodes: 40
+--------------------------------------------------
+[ANALYSIS] Assembling global stiffness matrix using VEM...
+--------------------------------------------------
+[ANALYSIS] Reduced system size: 2320 DOFs
+--------------------------------------------------
+----------------- SOLVING SYSTEM -----------------
+    "[ANALYSIS] System solved using "    "gauss"    " solver."
+
+--------------------------------------------------
+[POSTPROCESS] Computing reaction forces at fixed DOFs...
+[POSTPROCESS] Total reaction force in x: 1.3791e-05
+[POSTPROCESS] Total reaction force in y: -2000
+[POSTPROCESS] Maximum displacement in x: 0.14794
+[POSTPROCESS] Maximum displacement in y: 0.19994
+[POSTPROCESS] Maximum overall displacement: 0.19994
+--------------------------------------------------
+[POSTPROCESS] Total elastic energy: -191.7194
+--------------------------------------------------
+          LINEAR VEM SOLVER FINISHED              
+--------------------------------------------------
+ 
+ 
+  -> VEM-voro-2 (tau = 1.000000)
+--------------------------------------------------
+          LINEAR VEM SOLVER STARTING              
+--------------------------------------------------
+[PREPROCESS] Total number of elements: 1138
+--------------------------------------------------
+[PREPROCESS] Applying distributed Neumann loads on edges...
+[PREPROCESS] Defining prescribed degrees of freedom...
+[PREPROCESS] Number of fixed nodes: 54
+--------------------------------------------------
+[ANALYSIS] Assembling global stiffness matrix using VEM...
+--------------------------------------------------
+[ANALYSIS] Reduced system size: 4448 DOFs
+--------------------------------------------------
+----------------- SOLVING SYSTEM -----------------
+    "[ANALYSIS] System solved using "    "gauss"    " solver."
+
+--------------------------------------------------
+[POSTPROCESS] Computing reaction forces at fixed DOFs...
+[POSTPROCESS] Total reaction force in x: 0.0011169
+[POSTPROCESS] Total reaction force in y: -2000.0023
+[POSTPROCESS] Maximum displacement in x: 0.15289
+[POSTPROCESS] Maximum displacement in y: 0.20456
+[POSTPROCESS] Maximum overall displacement: 0.20456
+--------------------------------------------------
+[POSTPROCESS] Total elastic energy: -195.5592
+--------------------------------------------------
+          LINEAR VEM SOLVER FINISHED              
+--------------------------------------------------
+ 
+ 
+
+-------------------
+Processing Case 3 for tau = 1.000000
+  -> FEM-quad-3
+--------------------------------------------------
+            LINEAR FEM SOLVER STARTING            
+--------------------------------------------------
+[PREPROCESS] Total number of elements: 2596
+--------------------------------------------------
+[PREPROCESS] Applying distributed loads on edges...
+[PREPROCESS] Defining fixed degrees of freedom...
+[PREPROCESS] Number of fixed nodes: 60
+--------------------------------------------------
+[PREPROCESS] Total Neumann force in x: 0
+[PREPROCESS] Total Neumann force in y: 2000
+--------------------------------------------------
+[ANALYSIS] Assembling global stiffness matrix and building reduced system...
+--------------------------------------------------
+[ANALYSIS] Total area of elements: 15.36
+--------------------------------------------------
+[ANALYSIS] Reduced system size: 5280 DOFs
+--------------------------------------------------
+----------------- SOLVING SYSTEM -----------------
+    "[ANALYSIS] System solved using "    "gauss"    " solver."
+
+--------------------------------------------------
+[POSTPROCESS] Computing reaction forces at fixed DOFs...
+[POSTPROCESS] Total reaction force in x: -4.7987e-10
+[POSTPROCESS] Total reaction force in y: -2000
+[POSTPROCESS] Maximum displacement in x: 0.15623
+[POSTPROCESS] Maximum displacement in y: 0.20765
+--------------------------------------------------
+[POSTPROCESS] Total elastic energy: -197.3807
+--------------------------------------------------
+            LINEAR FEM SOLVER FINISHED            
+--------------------------------------------------
+ 
+ 
+  -> VEM-quad-3 (tau = 1.000000)
+--------------------------------------------------
+          LINEAR VEM SOLVER STARTING              
+--------------------------------------------------
+[PREPROCESS] Total number of elements: 2596
+--------------------------------------------------
+[PREPROCESS] Applying distributed Neumann loads on edges...
+[PREPROCESS] Defining prescribed degrees of freedom...
+[PREPROCESS] Number of fixed nodes: 60
+--------------------------------------------------
+[ANALYSIS] Assembling global stiffness matrix using VEM...
+--------------------------------------------------
+[ANALYSIS] Reduced system size: 5280 DOFs
+--------------------------------------------------
+----------------- SOLVING SYSTEM -----------------
+    "[ANALYSIS] System solved using "    "gauss"    " solver."
+
+--------------------------------------------------
+[POSTPROCESS] Computing reaction forces at fixed DOFs...
+[POSTPROCESS] Total reaction force in x: 4.1365e-05
+[POSTPROCESS] Total reaction force in y: -1999.9999
+[POSTPROCESS] Maximum displacement in x: 0.15227
+[POSTPROCESS] Maximum displacement in y: 0.20411
+[POSTPROCESS] Maximum overall displacement: 0.20411
+--------------------------------------------------
+[POSTPROCESS] Total elastic energy: -194.9903
+--------------------------------------------------
+          LINEAR VEM SOLVER FINISHED              
+--------------------------------------------------
+ 
+ 
+  -> VEM-voro-3 (tau = 1.000000)
+--------------------------------------------------
+          LINEAR VEM SOLVER STARTING              
+--------------------------------------------------
+[PREPROCESS] Total number of elements: 2579
+--------------------------------------------------
+[PREPROCESS] Applying distributed Neumann loads on edges...
+[PREPROCESS] Defining prescribed degrees of freedom...
+[PREPROCESS] Number of fixed nodes: 75
+--------------------------------------------------
+[ANALYSIS] Assembling global stiffness matrix using VEM...
+--------------------------------------------------
+[ANALYSIS] Reduced system size: 10164 DOFs
+--------------------------------------------------
+----------------- SOLVING SYSTEM -----------------
+    "[ANALYSIS] System solved using "    "gauss"    " solver."
+
+--------------------------------------------------
+[POSTPROCESS] Computing reaction forces at fixed DOFs...
+[POSTPROCESS] Total reaction force in x: 0.0090333
+[POSTPROCESS] Total reaction force in y: -2000.0161
+[POSTPROCESS] Maximum displacement in x: 0.15481
+[POSTPROCESS] Maximum displacement in y: 0.20642
+[POSTPROCESS] Maximum overall displacement: 0.20642
+--------------------------------------------------
+[POSTPROCESS] Total elastic energy: -196.7092
+--------------------------------------------------
+          LINEAR VEM SOLVER FINISHED              
+--------------------------------------------------
+ 
+ 
+[COOK MEMBRANE]
