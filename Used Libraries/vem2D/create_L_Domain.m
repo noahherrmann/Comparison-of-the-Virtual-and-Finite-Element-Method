@@ -1,7 +1,7 @@
 %% L-Domain from Triangles
 clear; clc; close all;
 
-load('./meshes/triangles_03.mat');
+load('./mesh/triangles_03.mat');
 baseMesh = mesh;
 
 v1 = baseMesh.verts;               % [0,1] x [0,1]
@@ -34,6 +34,6 @@ axis equal;
 % save as .mat
 mesh = LMesh;
 
-fileName = './meshes/l_shape_tri_03.mat';
+fileName = './mesh/l_shape_tri_03.mat';
 save(fileName, 'mesh');
 fprintf('Success! You have saved the file.\n', fileName);
